@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conoce el concepto, las cinco características esenciales y el funcionamiento de la computación en la nube.">
+  <meta name="theme-color" content="#081424">
+  <title>Fundamentos de Cloud Computing | CloudScope</title>
+  <link rel="icon" type="image/svg+xml" href="images/cloudscope-mark.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="CloudScope, inicio"><img src="images/cloudscope-mark.svg" alt="" width="37" height="37"><span>Cloud<span class="brand-accent">Scope</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" hidden>
+        <span class="menu-icon" aria-hidden="true"></span><span class="menu-label">Menú</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="fundamentos.html" aria-current="page">Fundamentos</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="tipos.html">Tipos de nube</a>
+        <a href="aplicaciones.html">Aplicaciones</a>
+        <a href="creador.html">Creador</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido" tabindex="-1">
+    <section class="hero page-hero" aria-labelledby="page-title">
+      <div class="container breadcrumb" aria-label="Ruta de navegación"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span>Fundamentos</span></div>
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">01 / Comprender la nube</p>
+          <h1 id="page-title">Una nube.<br><span>Una base muy real.</span></h1>
+          <p class="hero-description">Empieza por la idea central: acceder a recursos de computación como servicios, sin tener que disponer de toda la infraestructura en tu propio equipo.</p>
+        </div>
+        <img class="hero-art" src="images/cloud-architecture.svg" alt="Nube ilustrada sobre capas de servidores físicos conectados" width="550" height="360">
+      </div>
+    </section>
+    <nav class="anchor-bar" aria-label="En esta página">
+      <div class="container">
+        <span>En esta página</span>
+        <a href="#concepto">El concepto</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#funcionamiento">Cómo funciona</a>
+        <a href="#terminos">Conceptos clave</a>
+      </div>
+    </nav>
+    <section class="section white-section" id="concepto" aria-labelledby="concept-title">
+      <div class="container split-grid">
+        <div><p class="eyebrow">La idea esencial</p><h2 id="concept-title">Recursos disponibles<br>cuando los necesitas.</h2><p class="lead">Cloud Computing permite solicitar capacidad de procesamiento, almacenamiento y otros recursos a través de una red, con aprovisionamiento ágil.</p><p>La palabra «nube» describe una forma de acceder y administrar recursos. Detrás existen equipos, centros de datos, conexiones y personas que mantienen los servicios.</p></div>
+        <div class="note"><p><strong>Una distinción útil</strong></p><p>Guardar un archivo en otro equipo no describe, por sí solo, todo el modelo de nube. También importan la disponibilidad bajo demanda, la agrupación de recursos y la capacidad de ajustar y medir su uso.</p></div>
+      </div>
+    </section>
+    <section class="section" id="caracteristicas" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Las cinco características esenciales</p><h2 id="features-title">¿Qué hace que sea nube?</h2></div><p>El NIST identifica cinco características para comprender este modelo.</p></div>
+        <div class="feature-list">
+          <article class="feature-item"><span>01</span><div><h3>Autoservicio bajo demanda</h3><p>Solicitar recursos cuando se necesitan, sin gestionar manualmente cada solicitud con el proveedor.</p></div></article>
+          <article class="feature-item"><span>02</span><div><h3>Acceso por la red</h3><p>Utilizar los servicios desde dispositivos compatibles mediante mecanismos de acceso habituales.</p></div></article>
+          <article class="feature-item"><span>03</span><div><h3>Recursos compartidos</h3><p>Agrupar capacidad para atender a distintos usuarios con asignación según la demanda.</p></div></article>
+          <article class="feature-item"><span>04</span><div><h3>Elasticidad rápida</h3><p>Aumentar o reducir la capacidad disponible para responder a cambios en el uso.</p></div></article>
+          <article class="feature-item"><span>05</span><div><h3>Servicio medido</h3><p>Supervisar el consumo de recursos para dar visibilidad a usuarios y proveedores.</p></div></article>
+        </div>
+        <p class="source-line">Fuente: <a href="https://csrc.nist.gov/pubs/sp/800/145/final">NIST SP 800-145: The NIST Definition of Cloud Computing</a>.</p>
+      </div>
+    </section>
+    <section class="section white-section" id="funcionamiento" aria-labelledby="flow-title">
+      <div class="container split-grid">
+        <figure class="editorial-image"><img src="images/cloud-flow.svg" alt="Un dispositivo envía una solicitud por la red y recibe una respuesta de la infraestructura remota" width="680" height="450" loading="lazy"><figcaption>Dispositivo, red e infraestructura. El recorrido real puede incluir más componentes.</figcaption></figure>
+        <div><p class="eyebrow">Una solicitud, de principio a fin</p><h2 id="flow-title">¿Qué sucede al utilizarla?</h2>
+          <ol class="steps"><li><strong>Solicitas una acción.</strong>Abres una aplicación o pides un archivo desde tu dispositivo.</li><li><strong>La solicitud viaja por una red.</strong>La conexión permite comunicarse con el servicio correspondiente.</li><li><strong>El servicio realiza el trabajo.</strong>Los recursos disponibles procesan la solicitud o recuperan información.</li><li><strong>Recibes el resultado.</strong>El navegador o la aplicación presenta la respuesta para que continúes.</li></ol>
+          <p class="source-line">Descripción introductoria basada en <a href="https://cloud.google.com/learn/what-is-cloud-computing">Google Cloud: funcionamiento de Cloud Computing</a>.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="terminos" aria-labelledby="terms-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Antes de continuar</p><h2 id="terms-title">Tres recursos para reconocer.</h2></div><p>Estas palabras aparecerán en el resto del recorrido.</p></div>
+        <div class="definition-grid">
+          <article class="definition-card"><span class="card-label">01 / PROCESAR</span><h3>Cómputo</h3><p>Capacidad para ejecutar instrucciones y aplicaciones. Una máquina virtual es una forma de ofrecerla.</p></article>
+          <article class="definition-card"><span class="card-label">02 / GUARDAR</span><h3>Almacenamiento</h3><p>Recursos que conservan información. Su diseño cambia según los datos y la manera de acceder a ellos.</p></article>
+          <article class="definition-card"><span class="card-label">03 / COMUNICAR</span><h3>Red</h3><p>Conexiones y mecanismos que permiten intercambiar información entre dispositivos y servicios.</p></article>
+        </div>
+        <p class="source-line">Consulta: <a href="https://aws.amazon.com/types-of-cloud-computing/">AWS: infraestructura y modelos de servicio</a>.</p>
+      </div>
+    </section>
+    <aside class="white-section" aria-label="02 / Continuar el recorrido">
+      <div class="container bottom-cta">
+        <div><p class="eyebrow">02 / Continuar el recorrido</p><h2>Ahora, ¿qué parte quieres gestionar?</h2><p>Compara infraestructura, plataforma y software como servicio.</p></div>
+        <a class="button" href="servicios.html">Explorar los servicios<span aria-hidden="true">↗</span></a>
+      </div>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a class="brand" href="index.html" aria-label="CloudScope, inicio"><img src="images/cloudscope-mark.svg" alt="" width="37" height="37"><span>Cloud<span class="brand-accent">Scope</span></span></a>
+          <p>Una mirada clara a la tecnología que conecta nuestras ideas con el mundo.</p>
+        </div>
+        <div>
+          <strong class="footer-label">Sigue explorando</strong>
+          <nav class="footer-links" aria-label="Contenidos del sitio">
+            <a href="fundamentos.html">Fundamentos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="tipos.html">Tipos de nube</a>
+            <a href="aplicaciones.html">Aplicaciones</a>
+          </nav>
+        </div>
+        <div>
+          <strong class="footer-label">El proyecto</strong>
+          <nav class="footer-links" aria-label="Información del proyecto">
+            <a href="creador.html">Sobre el creador</a>
+            <a href="aplicaciones.html#fuentes">Fuentes de consulta</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 CloudScope · Sitio educativo sobre Cloud Computing.</span>
+        <span>Desarrollo de Software V · 1GS121</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
