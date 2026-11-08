@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="340" viewBox="0 0 660 340">
+  <g fill="none" stroke="#3b738c" stroke-width="1.2"><ellipse cx="330" cy="247" rx="270" ry="64"/><ellipse cx="330" cy="247" rx="195" ry="43"/></g>
+  <g fill="#17394f" stroke="#4b91a4" stroke-width="1.4"><path d="M95 179h95a34 34 0 0 0-4-68 45 45 0 0 0-83-12 41 41 0 0 0-8 80Z"/><path d="M459 179h95a34 34 0 0 0-4-68 45 45 0 0 0-83-12 41 41 0 0 0-8 80Z"/></g>
+  <g stroke="#69e5e5" stroke-width="2" fill="none"><path d="M127 128h27m-27 12h38m-38 12h27"/><rect x="489" y="128" width="25" height="23" rx="4"/><path d="M494 128v-8a8 8 0 0 1 16 0v8"/><path d="M207 138h80m-8-6 8 6-8 6m-72 17h80m-72-6-8 6 8 6M373 138h70m-8-6 8 6-8 6m-72 17h70m-62-6-8 6 8 6"/></g>
+  <rect x="296" y="119" width="66" height="59" rx="10" fill="#69e5e5"/>
+  <path d="M315 143h28m-28 11h28m-22-17-6 6 6 6m16-1 6 6-6 6" fill="none" stroke="#144356" stroke-width="2"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle"><text x="143" y="221" fill="#c9e7f2" font-size="15">Nube pública</text><text x="507" y="221" fill="#c9e7f2" font-size="15">Nube privada</text><text x="330" y="287" fill="#69e5e5" font-size="11" letter-spacing="1.5">CONEXIÓN HÍBRIDA</text></g>
+</svg>

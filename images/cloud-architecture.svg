@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="560" viewBox="0 0 660 560">
+  <defs>
+    <linearGradient id="cloud" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#a9f7f3"/><stop offset=".55" stop-color="#5edddf"/><stop offset="1" stop-color="#258da6"/></linearGradient>
+    <linearGradient id="side" x2="0" y2="1"><stop stop-color="#2e647c"/><stop offset="1" stop-color="#152d45"/></linearGradient>
+    <linearGradient id="top" x2="1" y2="1"><stop stop-color="#6d9eb8"/><stop offset="1" stop-color="#24435e"/></linearGradient>
+    <linearGradient id="beam" x2="0" y2="1"><stop stop-color="#66e5df" stop-opacity=".21"/><stop offset="1" stop-color="#66e5df" stop-opacity="0"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#60e4dc" stop-opacity=".22"/><stop offset="1" stop-color="#60e4dc" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <ellipse cx="332" cy="432" rx="260" ry="90" fill="url(#glow)"/>
+  <g fill="none" stroke="#70bdcf" stroke-opacity=".23">
+    <path d="m25 365 300 170 310-177M25 319l300 170 310-177M65 273l260 150 270-156M125 245l200 115 210-120"/>
+    <path d="m115 300 300 172m-245-205 300 173m-240-208 305 175M535 300 225 478m255-211L170 445m245-210L115 412"/>
+  </g>
+  <path d="M256 159v152l83 48 86-50V154" fill="url(#beam)"/>
+  <g stroke="#63d7d8" stroke-width="1.5" fill="none">
+    <path d="m112 331 79-45 137 78 151-88 69 40" stroke-dasharray="5 6" opacity=".65"/>
+    <path d="M339 199v72m0 100v57m-92-103-73 42m251-53 72 41" opacity=".8"/>
+    <circle cx="112" cy="331" r="6" fill="#10283a"/><circle cx="548" cy="316" r="6" fill="#10283a"/><circle cx="339" cy="428" r="6" fill="#69e5e5"/>
+  </g>
+  <ellipse cx="338" cy="407" rx="152" ry="39" fill="#000" opacity=".25" filter="url(#shadow)"/>
+  <g stroke="#4b7a96" stroke-width="1.2" stroke-linejoin="round">
+    <path d="m210 330 125-71 132 74-125 73Z" fill="url(#top)"/>
+    <path d="m210 330 132 76v34l-132-76Z" fill="#18334c"/>
+    <path d="m342 406 125-73v34l-125 73Z" fill="#23495f"/>
+    <path d="m220 296 115-66 122 69-115 67Z" fill="url(#top)"/>
+    <path d="m220 296 122 70v38l-122-70Z" fill="#1b3c54"/>
+    <path d="m342 366 115-67v38l-115 67Z" fill="url(#side)"/>
+    <path d="m230 257 105-60 112 63-105 61Z" fill="url(#top)"/>
+    <path d="m230 257 112 64v39l-112-64Z" fill="#1c3d53"/>
+    <path d="m342 321 105-61v39l-105 61Z" fill="url(#side)"/>
+  </g>
+  <g fill="#69e5e5">
+    <path d="m243 277 7 4v4l-7-4Zm12 7 7 4v4l-7-4Zm-23 32 7 4v4l-7-4Zm12 7 7 4v4l-7-4Zm-23 29 7 4v4l-7-4Z"/>
+    <circle cx="411" cy="300" r="2.5"/><circle cx="421" cy="294" r="2.5"/><circle cx="431" cy="288" r="2.5"/>
+    <circle cx="419" cy="338" r="2.5"/><circle cx="429" cy="332" r="2.5"/><circle cx="439" cy="326" r="2.5"/>
+  </g>
+  <g stroke="#78adc1" opacity=".6"><path d="m273 294 43 25m-53 13 53 31m-63 7 63 36"/><path d="m360 329 33-19m-33 57 43-25m-43 65 54-31"/></g>
+  <path d="M262 175c-23 0-41-16-41-36 0-18 13-33 32-36 5-34 34-60 69-60 28 0 53 17 64 41 4-1 8-2 12-2 28 0 50 20 50 46s-22 47-50 47Z" transform="translate(0 12)" fill="#143d4d" stroke="#3b9cae" stroke-width="1.4"/>
+  <path d="M262 175c-23 0-41-16-41-36 0-18 13-33 32-36 5-34 34-60 69-60 28 0 53 17 64 41 4-1 8-2 12-2 28 0 50 20 50 46s-22 47-50 47Z" fill="url(#cloud)" stroke="#b7fbef" stroke-width="1.5"/>
+  <path d="M265 114c2-32 28-57 59-57" fill="none" stroke="#e5fff8" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <path d="m307 123 28-16 28 16-28 17Zm0 0v23l28 16 28-16v-23m-28 17v22" fill="none" stroke="#165c72" stroke-width="2" stroke-linejoin="round"/>
+  <g font-family="Consolas,monospace" font-size="10" letter-spacing="1.4">
+    <rect x="78" y="186" width="127" height="37" rx="6" fill="#10273b" stroke="#39596e"/>
+    <circle cx="94" cy="205" r="3" fill="#69e5e5"/><text x="107" y="209" fill="#c4e5ed">CÓMPUTO</text>
+    <path d="m205 205 45 30" fill="none" stroke="#5b899d"/>
+    <rect x="435" y="207" width="162" height="37" rx="6" fill="#10273b" stroke="#39596e"/>
+    <circle cx="451" cy="226" r="3" fill="#69e5e5"/><text x="464" y="230" fill="#c4e5ed">ALMACENAMIENTO</text>
+    <path d="m435 226-24 17" fill="none" stroke="#5b899d"/>
+    <rect x="278" y="457" width="121" height="37" rx="6" fill="#10273b" stroke="#39596e"/>
+    <circle cx="295" cy="476" r="3" fill="#69e5e5"/><text x="308" y="480" fill="#c4e5ed">CONEXIÓN</text>
+    <path d="M339 457v-19" fill="none" stroke="#5b899d"/>
+  </g>
+  <g fill="#8bdedc"><circle cx="174" cy="111" r="2"/><circle cx="499" cy="111" r="2"/><circle cx="535" cy="398" r="2"/><circle cx="156" cy="412" r="2"/></g>
+</svg>

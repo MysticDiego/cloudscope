@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="360" viewBox="0 0 550 360">
+  <circle cx="275" cy="176" r="120" fill="none" stroke="#437087" stroke-dasharray="5 8"/><circle cx="275" cy="176" r="79" fill="#19394e" stroke="#386c7d"/>
+  <path d="M242 195h66a23 23 0 0 0-1-46 31 31 0 0 0-56-8 28 28 0 0 0-9 54Z" fill="#69e5e5"/>
+  <g stroke="#52869b" stroke-width="1.5" fill="none"><path d="m194 122-48-28m206 28 49-28m-207 135-48 33m206-33 49 33"/></g>
+  <g fill="#152d44" stroke="#5d95ad"><rect x="95" y="50" width="78" height="67" rx="10"/><rect x="378" y="50" width="78" height="67" rx="10"/><rect x="95" y="250" width="78" height="67" rx="10"/><rect x="378" y="250" width="78" height="67" rx="10"/></g>
+  <g stroke="#8aece5" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="m117 72 5 24h25l5-17h-31m6 25h0m16 0h0"/><path d="m402 78-8 7 8 7m28-14 8 7-8 7m-13-21-5 28"/><path d="M118 290v-13m11 13v-22m11 22v-29m11 29v-17"/><path d="M400 274c0-7 30-7 30 0s-30 7-30 0m0 0v20c0 7 30 7 30 0v-20m-30 10c0 7 30 7 30 0"/></g>
+  <g font-family="Consolas,monospace" font-size="10" fill="#bed6e6" text-anchor="middle"><text x="134" y="139">COMERCIO</text><text x="417" y="139">DESARROLLO</text><text x="134" y="339">ANÁLISIS</text><text x="417" y="339">RESPALDO</text></g>
+</svg>

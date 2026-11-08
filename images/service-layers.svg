@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="360" viewBox="0 0 550 360">
+  <g fill="none" stroke="#6198ae" stroke-opacity=".35"><path d="m40 225 230 130 230-130M80 200l190 110 190-110M120 175l150 85 150-85"/></g>
+  <g stroke="#6aafbc" stroke-width="1.2" stroke-linejoin="round">
+    <path d="m137 220 137-78 137 78-137 79Z" fill="#214b62"/><path d="m137 220 137 79v25l-137-79Z" fill="#17354d"/><path d="m274 299 137-79v25l-137 79Z" fill="#306378"/>
+    <path d="m137 159 137-78 137 78-137 79Z" fill="#366b7f"/><path d="m137 159 137 79v25l-137-79Z" fill="#20485f"/><path d="m274 238 137-79v25l-137 79Z" fill="#42889a"/>
+    <path d="m137 98 137-78 137 78-137 79Z" fill="#77e1df"/><path d="m137 98 137 79v25l-137-79Z" fill="#429da8"/><path d="m274 177 137-79v25l-137 79Z" fill="#62bfc5"/>
+  </g>
+  <g font-family="Consolas,monospace" font-size="12" letter-spacing="2" text-anchor="middle"><text x="274" y="104" fill="#0d4a62">SOFTWARE</text><text x="274" y="166" fill="#dcf4fc">PLATAFORMA</text><text x="274" y="227" fill="#bfdfec">INFRAESTRUCTURA</text></g>
+  <g fill="#69e5e5"><circle cx="94" cy="142" r="3"/><circle cx="452" cy="183" r="3"/><circle cx="273" cy="343" r="3"/></g>
+</svg>
