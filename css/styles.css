@@ -1201,26 +1201,16 @@ tbody td {
   gap: 65px;
 }
 
-.profile-placeholder {
-  display: grid;
-  min-height: 320px;
-  place-items: center;
-  color: #4d6d81;
-  background: #e7f0f6;
-  border: 1px dashed #91a7b8;
-  border-radius: 8px;
-  font-size: 13px;
+.profile-portrait {
+  overflow: hidden;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
 }
 
-.draft-label {
-  display: inline-block;
-  margin-bottom: 18px;
-  padding: 3px 10px;
-  color: #5f481c;
-  background: #fbefd5;
-  border: 1px solid #e9d7af;
-  border-radius: 3px;
-  font-size: 11px;
+.profile-photo {
+  width: 100%;
+  height: auto;
 }
 
 /* El contenido permanece accesible si JavaScript está desactivado. */
